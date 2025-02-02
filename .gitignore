@@ -1,0 +1,22 @@
+# Ignorer les datasets volumineux
+data/CICIDS2017/*.csv
+data/CICIDS2017/*.pcap
+
+data/NSL-KDD/*.csv
+data/NSL-KDD/*.pcap
+
+# Ignorer les fichiers de modèle lourds
+models/*.pkl
+models/*.h5
+
+# Ignorer les fichiers de cache de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorer les fichiers Jupyter checkpoint
+.ipynb_checkpoints/
+
+# Ignorer les environnements virtuels
+venv/
+.env

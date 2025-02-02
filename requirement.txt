@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tensorflow   # (si tu utilises du deep learning)
+flask        # (si tu veux faire une API)
+jupyter
