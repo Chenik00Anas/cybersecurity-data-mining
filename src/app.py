@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 app = Flask(__name__)
-model = joblib.load('best_svm_model_20250131_1259.pkl')  # Remplacer par votre fichier
+model = joblib.load('best_svm_model_20250131_1259.pkl')  # Replace with your file
 
 @app.route('/predict', methods=['POST'])
 def predict():
